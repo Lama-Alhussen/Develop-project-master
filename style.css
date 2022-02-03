@@ -3,8 +3,8 @@ box-sizing: border-box;
 margin: 0%;
 padding: 0%;
 color:black;
-font-family:Verdana, Geneva, Tahoma, sans-serif;
-list-style: none;
+font-family:Arial, Helvetica, sans-serif;
+list-style-type: style auto;;
 }
 body{
     height: 10vw;
@@ -130,22 +130,63 @@ height:120px;
     }
     .inform1{
         display:flex;
-        justify-content:space-between;
-        margin: 20px;
+        justify-content:space-around;
+        margin: 29px;
+        
         align-items:center;
     }
-    .inform1 div{
-margin-left: 30px;
-    }
+  
 
-    .inform1 div h4{
+    .inform1 div h2{
 color: #00a69c;
     }
     .inform1 div ul li{
 list-style:disc;   
 font-size: 20px;
          }
+      
     .imggg{
-        width: 25%;
+        width: 27%;
     }
-    
+    .inform1 div ul ol{
+        font-size: 20px;
+     }
+    .startform{
+        display: flex;
+        justify-content: space-around;
+        background-color:  rgb(9, 9, 70);
+        height: 420px;
+        width: 100%;
+    }
+    .startform h1{
+    color:white;
+    margin-top: 50px;
+    font-size: 50px;
+    }
+    .startform form div input{
+        padding:11px 39px 11px 11px;
+border-radius: 8px;
+    }
+    .startform form h3{
+        margin-top: 20px;
+        color:white;
+    }
+    .startform form  input{
+        padding:11px 250px 11px 11px;
+border-radius: 8px;
+margin-top: 10px;
+    }
+    .startform form  textarea{
+        padding:11px 250px 100px 11px;
+border-radius: 8px;
+margin-top: 10px;
+
+    }
+    .startform form  button{
+        padding:11px 170px 11px 170px;
+border-radius: 8px;
+margin-top: 10px;
+background-color: yellow;
+font-size: 20px;
+color: rgb(9, 9, 70);
+    }
